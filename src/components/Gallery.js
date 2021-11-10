@@ -1,11 +1,11 @@
 import diablo from '../Assets/diablo.png';
 
-const Home = () => {
+const Gallery = () => {
     return (
 
         <section>
             <div className="container-fluid">
-                <div className="row"><h1>Home</h1></div>
+                <div className="row"><h1>Gallery</h1></div>
                 <div className="row">
                     <div className="col-12-md-6">
                         <img className="img-fluid" src={diablo} alt="diablo" width="300"></img>
@@ -17,4 +17,4 @@ const Home = () => {
         </section>
     )
 }
-export default Home;
+export default Gallery;
