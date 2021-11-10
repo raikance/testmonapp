@@ -1,4 +1,4 @@
-import LOGOCOZED from '../Assets/STICKERS COZED-01.png';
+import LOGO from '../logo.svg';
 
 const Contact = () => {
     return (
@@ -7,10 +7,13 @@ const Contact = () => {
             <div className="container-fluid">
                 <div className="row"><h1>Contact</h1></div>
                 <div className="row">
-                    <div className="col-12-md-6">
-                        <img className="img-fluid" src={LOGOCOZED} alt="diablo" width="300"></img>
-                    </div>
-                    <div className="col-12-md-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
+                    <div className="col-12 col-md-6">
+                        <img className="img-fluid" src={LOGO} alt="diablo" width="300"></img>
+                        </div>
+                        <div className="col-12 col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22258.64415277515!2d4.83409671963789!3d45.784605712770485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea953340288b%3A0x8913782c16e3ef00!2sT%C3%AAte%20d&#39;Or%2C%2069006%20Lyon!5e0!3m2!1sfr!2sfr!4v1636543055525!5m2!1sfr!2sfr" width="600" height="450"></iframe>
+                        </div>
+                        
                     <button type="button" class="btn btn-primary">Primary</button>
                 </div>
             </div>
