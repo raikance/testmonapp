@@ -5,7 +5,7 @@ const Header = () => {
     <header className="App-header">
 
     
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light macouleurntm">
           <div className="container-fluid">
             <NavLink className="navbar-brand" to="/"><img src={LOGOCOZED} className="App-logo" alt="logo" width="50" /></NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
